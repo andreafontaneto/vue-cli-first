@@ -22,9 +22,20 @@ export default {
 </script>
 
 <style>
-  
-  h1 {
-    font-size: 20px;
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
   }
 
 </style>
