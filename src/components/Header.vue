@@ -1,6 +1,6 @@
 <template>
   <header>
-    HEADER
+    <h1>La mia prima app con Vue CLI!</h1>
   </header>
 </template>
 
@@ -10,6 +10,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+  h1 {
+    color: red;
+  }
 
 </style>
